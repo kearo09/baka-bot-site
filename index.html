@@ -1,196 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baka Telegram Bot – AI + Fun + Economy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baka Bot | Official Website</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #0a0a0a;
+        color: white;
+        text-align: center;
+    }
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: radial-gradient(circle at top, #ff4ecb, #120014, #09000e);
-            color: #fff;
-        }
-        header {
-            text-align: center;
-            padding: 60px 20px 40px;
-        }
-        h1 { font-size: 48px; margin-bottom: 10px; }
-        .sub { font-size: 20px; opacity: 0.8; }
-        .container {
-            max-width: 900px; margin: 0 auto; padding: 20px;
-        }
-        h2 {
-            margin-top: 40px;
-            border-left: 5px solid #ff4ecb;
-            padding-left: 10px;
-        }
-        .box {
-            background: rgba(255,255,255,0.06);
-            padding: 20px;
-            border-radius: 10px;
-            line-height: 1.7;
-            margin-top: 10px;
-        }
-        .cmd-list {
-            display: flex; justify-content: space-between;
-            flex-wrap: wrap; gap: 10px;
-        }
-        .left, .right { width: 48%; min-width: 300px; }
-        .start-btn {
-            display: block; margin: 40px auto; width: 220px;
-            padding: 16px; text-align: center;
-            background: #ff4ecb; color: #000;
-            text-decoration: none; font-size: 18px; font-weight: bold;
-            border-radius: 8px;
-        }
-        footer {
-            margin-top: 40px; padding: 15px;
-            text-align: center; color: #bbb;
-        }
-        .bot-logo {
-            width: 140px; height: 140px; border-radius: 50%;
-            background: #ff4ecb; margin: 0 auto 20px;
-            display: flex; align-items: center; justify-content: center;
-            font-size: 60px;
-        }
-    </style>
+    header {
+        background: #111;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 { margin: 0; font-size: 26px; color: #ff4ec7; }
+
+    .nav-buttons a {
+        padding: 10px 18px;
+        margin-left: 10px;
+        background: #ff4ec7;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero img {
+        width: 180px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        margin-top: 50px;
+        padding: 30px 10px;
+        background: #111;
+    }
+
+    footer a {
+        display: block;
+        margin: 8px 0;
+        text-decoration: none;
+        color: #ff4ec7;
+        font-size: 14px;
+    }
+</style>
 </head>
-
 <body>
 
 <header>
-    <div class="bot-logo">💗</div>
-    <h1>Baka Telegram Bot</h1>
-    <div class="sub">The Smartest AI + Fun + Economy Bot on Telegram</div>
+    <h1>Baka Bot</h1>
+
+    <div class="nav-buttons">
+        <a href="about.html" target="_blank">About Us</a>
+        <a href="contact.html" target="_blank">Contact Us</a>
+    </div>
 </header>
 
-<div class="container">
-
-    <h2>✨ About Baka</h2>
-    <div class="box">
-        Baka is an AI-powered Telegram bot built for chatting, gaming, economy, and cute emotional replies in Hinglish. 
-        Designed to feel like a real Gen-Z anime girl with fun & love-filled vibes.
-    </div>
-
-    <h2>💰 Baka Economy System (Normal Users)</h2>
-    <div class="box">
-        <b>How it works:</b><br>
-        Earn, rob, kill, gift, buy items, and rank globally!
-        
-        <div class="cmd-list">
-            <div class="left">
-                <b>Economy Commands</b><br>
-                • /close — Disable economy in group<br>
-                • /open — Enable economy in group<br>
-                • /bal — Check your balance<br>
-                • /toprich — Top 10 richest<br>
-                • /topkill — Top 10 killers<br>
-                • /give (reply) amount — 10% fee<br>
-                • /rob (reply) 1–10000 — Limit 10k<br>
-                • /kill (reply) — Earn 100–200<br>
-                • /revive — Revive yourself<br>
-                • /protect 1d — 1 day protection<br>
-            </div>
-
-            <div class="right">
-                <b>Item & Gifting</b><br>
-                • Earn money by killing users<br>
-                • Gift money (10% fee)<br>
-                • Rob with daily limit<br>
-                • Buy protection to avoid robbery<br>
-                • Item inventory support<br>
-            </div>
-        </div>
-    </div>
-
-    <h2>💜 Premium Users (₹19/month)</h2>
-    <div class="box">
-        Premium users get **overpowered benefits**:
-        <br><br>
-
-        ✔ Kill reward: <b>200–400 coins</b><br>
-        ✔ Rob limit: <b>Unlimited</b><br>
-        ✔ Give command fee: <b>only 5%</b><br>
-        ✔ Special command: <b>/check</b><br>
-        ✔ Protection available: <b>1d / 2d / 3d</b><br>
-        ✔ Faster AI reply speed<br>
-        ✔ More emotions + cute replies<br>
-
-        <br><b>Price:</b> Only <b>₹19/month</b>
-    </div>
-
-    <h2>🎮 Games</h2>
-    <div class="box">
-        • /bomb — Pass the bomb game<br>
-        • /lottery — Create/join lotteries<br>
-        • /truth /dare — 500+ questions<br>
-        • /puzzle — Hidden riddles<br>
-        • /gift — Send virtual anime items<br>
-    </div>
-
-    <h2>🔒 Privacy Policy</h2>
-    <div class="box">
-        We store only Telegram User ID, username, and game/economy stats.  
-        We never collect phone numbers or personal personal information.
-    </div>
-
-    <h2>🚚 Shipping / Delivery Policy</h2>
-    <div class="box">
-        Since Baka Bot sells **digital premium membership**, there is no physical shipping involved.  
-        <br><br>
-        ✔ Premium access is delivered **instantly** after successful payment.  
-        <br>
-        If your premium is not activated automatically, contact support and it will be activated within **1 hour**.
-    </div>
-
-    <h2>💳 Refund & Cancellation Policy</h2>
-    <div class="box">
-        Refunds are only applicable in the following cases:
-        <br><br>
-        • Payment was deducted but premium was not activated<br>
-        • Duplicate payment<br>
-        <br>
-        Refund requests must be made within **24 hours** of the transaction.
-        <br><br>
-        ❌ No refunds for already-used premium or valid activated memberships.  
-        ❌ No cancellations once premium is activated.
-    </div>
-
-    <h2>📜 Terms & Conditions</h2>
-    <div class="box">
-        By using the Baka Telegram Bot, you agree to the following terms:
-        <br><br>
-
-        ✔ You must follow Telegram rules and not misuse the bot.  
-        ✔ Premium benefits are personal and cannot be transferred to another user.  
-        ✔ Any attempt to exploit bugs, cheat economy, or abuse the system may result in a permanent ban.  
-        ✔ We reserve the right to update commands, features, and pricing at any time.  
-        ✔ We do not guarantee 100% uptime, but we always try to keep the bot stable.  
-        ✔ Buying premium does not give ownership of any bot system or code.  
-        ✔ Users are responsible for ensuring payment details are correct before paying.
-
-        <br><br>
-        Continued use of the bot means you accept these terms.
-    </div>
-
-    <h2>📞 Contact Us</h2>
-    <div class="box">
-        For support or premium activation issues, contact us:
-        <br><br>
-        📧 Email: <b>nikhilkairo9@gmail.com</b><br>
-        📢 Telegram Channel: <b>@kairo_08</b><br>
-        🕒 Response Time: 1–24 hours
-    </div>
-
-    <a class="start-btn" href="https://t.me/im_bakabot">Start Chatting</a>
-
+<div class="hero">
+    <img src="baka_logo.png" alt="Baka Logo" />
+    <h2>Welcome to Baka Bot Official Website</h2>
+    <p>Your favorite AI chatting + gaming Telegram bot ❤️</p>
+    <a href="https://t.me/im_bakabot" target="_blank"
+       style="display:inline-block;margin-top:20px;padding:12px 22px;background:#ff4ec7;color:white;text-decoration:none;border-radius:6px;font-size:16px;">
+       Open Baka on Telegram
+    </a>
 </div>
 
 <footer>
-    © 2025 Baka Bot — All Rights Reserved
+    <h3>Useful Links</h3>
+
+    <a href="privacy.html" target="_blank">Privacy & Policy</a>
+    <a href="terms.html" target="_blank">Terms of Use</a>
+    <a href="disclaimer.html" target="_blank">Disclaimer</a>
+    <a href="shipping.html" target="_blank">Shipping & Delivery Policy</a>
+    <a href="refund.html" target="_blank">Refund & Cancellation Policy</a>
 </footer>
 
 </body>
 </html>
+
