@@ -216,7 +216,6 @@
         • Affordable pricing with managed service<br>
     </div>
 
-    <a class="start-btn" href="javascript:void(0)" onclick="openServiceForm()">Get Service</a>
 
 </div>
 
@@ -230,55 +229,6 @@
 
     <p style="margin-top:20px;color:#777;">© 2025 AutoFlow Tools — All Rights Reserved</p>
 </footer>
-
-<script>
-function openServiceForm() {
-    var formWindow = window.open("", "ServiceForm", "width=500,height=600,resizable=yes,scrollbars=yes");
-
-    formWindow.document.write(`
-        <html>
-        <head>
-            <title>AutoFlow Service Form</title>
-            <style>
-                body { font-family: Arial, sans-serif; padding: 20px; background: #120014; color: #fff; }
-                h2 { color: #ff4ecb; text-align: center; }
-                label { display: block; margin-top: 15px; }
-                input, textarea { width: 100%; padding: 10px; margin-top: 5px; border-radius: 5px; border: none; }
-                textarea { resize: vertical; min-height: 100px; }
-                button { margin-top: 20px; width: 100%; padding: 12px; background: #ff4ecb; color: #000; border: none; font-size: 16px; font-weight: bold; border-radius: 8px; cursor: pointer; }
-                button:hover { background: #ff1ecb; }
-            </style>
-        </head>
-        <body>
-            <h2>AutoFlow Service Request</h2>
-            <form id="serviceForm">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Gmail ID</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" required>
-
-                <label for="business">Business Description</label>
-                <textarea id="business" name="business" required></textarea>
-
-                <button type="submit">Submit</button>
-            </form>
-
-            <script>
-                document.getElementById('serviceForm').addEventListener('submit', function(e) {
-                    e.preventDefault();
-                    alert('Thank you! Your request has been submitted.');
-                    window.close();
-                });
-            </script>
-        </body>
-        </html>
-    `);
-}
-</script>
 
 
     
